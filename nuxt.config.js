@@ -2,7 +2,7 @@
 require("dotenv").config();
 
 const appName = process.env.APP_NAME || "API Gateway";
-const appDescription = process.env.APP_DESCRIPTION || "Portal for APIGateway";
+const appDescription = process.env.APP_DESCRIPTION || "API Gateway Portal";
 const appDebug = process.env.APP_DEBUG || false;
 const appHost = process.env.APP_HOST || "localhost";
 const appPort = process.env.APP_PORT || 3000;
@@ -40,7 +40,7 @@ export default {
     title: "",
     // Note, it is not possible to use constants declared above in titleTemplate
     titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} | ${process.env.APP_NAME || "API Gateway"}` : `${process.env.APP_NAME || "Lever Wallet"}`;
+      return titleChunk ? `${titleChunk} | ${process.env.APP_NAME || "API Gateway"}` : `${process.env.APP_NAME || "API Gateway"}`;
     },
     meta: [
       { charset: "utf-8" },
@@ -74,6 +74,7 @@ export default {
     "~/plugins/api",
     "~/plugins/axios",
     "~/plugins/custom-filters",
+    "~/plugins/uniq-id",
     "~/plugins/vue2-filters",
     "~/plugins/vue-clampy",
     "~/plugins/vee-validate"
