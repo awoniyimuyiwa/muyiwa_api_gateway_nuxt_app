@@ -51,7 +51,7 @@
 
         <!-- Start of service routes section -->
         <hr class="_minus_10_padding" />
-        <p class="has-text-grey-light _minus_10_padding">
+        <p class="has-text-grey-light">
           {{ $tc("serviceRoute", 0) | capitalize }}:
         </p>
         <div
@@ -136,7 +136,7 @@
           </div>
 
           <p class="has-text-grey-light _minus_10_padding">
-            <small>{{ $tc("otherSettings" | capitalize) }}</small>:
+            <small>{{ $t("otherSettings") | capitalize }}</small>:
           </p>
 
           <div class="columns is-multiline">

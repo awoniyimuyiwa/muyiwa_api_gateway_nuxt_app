@@ -6,10 +6,12 @@ export default {
   from: "From",
   gatewayRoute: "Gateway Route",
   newEntry: "New Entry",
-  otherConfigurations: "Other Configurations",
+  no: "No",
+  otherSettings: "Other Settings",
   route: "Routes | Route | Routes",
   serviceRoute: "Service Route(s) | Service Route | Service Routes",
   to: "To",
+  yes: "Yes",
 
   errors: {
     doesntExist: "Sorry, the resource you requested either does not exist or has been renamed.",
@@ -29,10 +31,10 @@ export default {
   formFields: {
     contentHandling: "Content Handling",
     domain: "Domain",
+    method: "Method",
     path: "Path",
     requestInterceptor: "Request Interceptor",
-    responseInterceptor: "Response Interceptor",
-    method: "Method"
+    responseInterceptor: "Response Interceptor"
   },
 
   nav: {
